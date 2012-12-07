@@ -23,7 +23,7 @@
 	desc("Test everything");
 	task("test", ["nodeVersion"], function() {
 		var reporter = require("nodeunit").reporters["default"];
-		reporter.run(['src/_something_test.js'], null, function(failures) {
+		reporter.run(['src/_life_test.js'], null, function(failures) {
 			if (failures) fail("Tests failed");
 			complete();
 		});

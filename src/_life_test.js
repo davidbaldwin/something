@@ -1,6 +1,6 @@
 "use strict";
 
-var something = require("./something.js");
+var something = require("./life.js");
 
 
 exports.test_Add1to2 = function(test) {
